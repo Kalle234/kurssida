@@ -1,0 +1,66 @@
+body {
+  background-image: url(mountain.jpeg);
+}
+
+h1 {
+  text-align: center;
+}
+
+.cars-wrapper {
+  display: flex;
+  gap: 40px;
+  margin: 50px;
+}
+
+.car-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.car-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.car-container:hover {
+  transform: scale(1.1);
+}
+
+.small {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(8, 16, 16);
+}
+
+.wide {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(24, 22, 18);
+}
+
+.car2 {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(103, 11, 11);
+}
+
+.car3 {
+  width: 300px;
+  height: 100px;
+  background-color: rgb(4, 5, 5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  cursor: pointer;
+  position: fixed;
+  top: 40%;
+  left: 16%;
+  transform: translateX(-50%);
+}
